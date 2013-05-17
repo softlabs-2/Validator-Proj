@@ -80,7 +80,7 @@ class PostsController extends BaseController {
         }
 
         // return error messages
-        return Services\Errors\Error::getErrorMessages($validation);
+        return Error::getErrorMessages($validation);
     }
 
     /**

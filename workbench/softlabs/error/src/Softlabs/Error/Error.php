@@ -1,4 +1,4 @@
-<?php namespace Services\Errors;
+<?php namespace Softlabs\Error;
 
 class Error
 {

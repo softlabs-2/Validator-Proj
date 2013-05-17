@@ -115,6 +115,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
         'Way\Generators\GeneratorsServiceProvider',
         'Softlabs\Validator\ValidatorServiceProvider',
+        'Softlabs\Error\ErrorServiceProvider',
 
 	),
 
@@ -181,6 +182,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
         'Validator'       => 'Softlabs\Validator\Facades\Validator',
+        'Error'       => 'Softlabs\Error\Facades\Error',
 
 	),
 

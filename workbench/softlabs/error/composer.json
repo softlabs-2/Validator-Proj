@@ -1,0 +1,21 @@
+{
+    "name": "softlabs/error",
+    "description": "A class for dealing with errors",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "tstuttard",
+            "email": "thomas.stuttard@softlabs.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Softlabs\\Error": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

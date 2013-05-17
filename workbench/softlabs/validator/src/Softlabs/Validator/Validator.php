@@ -44,4 +44,24 @@ abstract class Validator
 
         return false;
     }
+
+    /**
+     * Checks if the inputs fail validation.
+     * @return boolean false if invalid else true
+     */
+    public function fails()
+    {
+        $validation = \Validator::make($this->input, static::$rules);
+
+        if ($validation->fails()) {
+
+            // sets error messages
+            $this->errors = $validation->messages();
+
+            return true;
+
+        }
+
+        return false;
+    }
 }
